@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa62d99b-97d9-47ce-b796-a368722a4254" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RTyJ3EiVrSi4yfmGWQT907y6Rw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LearnPython" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Christ\PycharmProjects\Data Structures &amp; Algorithms - Python\challenges" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.built_in_functions">
+    <configuration name="built_in_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data Structures &amp; Algorithms - Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functional programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functional programming/built_in_functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generatorexpressionandlistcomprehension" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data Structures &amp; Algorithms - Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functional programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functional programming/generatorexpressionandlistcomprehension.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data Structures &amp; Algorithms - Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functional programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functional programming/generators.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="iterators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data Structures &amp; Algorithms - Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functional programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functional programming/iterators.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="react" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data Structures &amp; Algorithms - Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/challenges" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenges/react.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.built_in_functions" />
+        <item itemvalue="Python.generators" />
+        <item itemvalue="Python.iterators" />
+        <item itemvalue="Python.generatorexpressionandlistcomprehension" />
+        <item itemvalue="Python.react" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa62d99b-97d9-47ce-b796-a368722a4254" name="Default Changelist" comment="" />
+      <created>1584079471159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584079471159</updated>
+      <workItem from="1584079483431" duration="595000" />
+      <workItem from="1584118770028" duration="3421000" />
+      <workItem from="1584133551870" duration="4164000" />
+      <workItem from="1584196877194" duration="13609000" />
+      <workItem from="1584508764269" duration="9395000" />
+      <workItem from="1584885300727" duration="17496000" />
+      <workItem from="1585078307930" duration="3863000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="416" y="222" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1584214618080">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="416" y="222" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.768@0.0.1366.768" timestamp="1584214618080" />
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1584201021987">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584201021987" />
+    <state width="1323" height="269" key="GridCell.Tab.0.bottom" timestamp="1585080887977">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="269" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585080887977" />
+    <state width="1323" height="269" key="GridCell.Tab.0.center" timestamp="1585080887977">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="269" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1585080887977" />
+    <state width="1323" height="269" key="GridCell.Tab.0.left" timestamp="1585080887977">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="269" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1585080887977" />
+    <state width="1323" height="269" key="GridCell.Tab.0.right" timestamp="1585080887977">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="269" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1585080887977" />
+    <state width="1323" height="228" key="GridCell.Tab.1.bottom" timestamp="1584991800854">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="228" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584991800854" />
+    <state width="1323" height="228" key="GridCell.Tab.1.center" timestamp="1584991800854">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="228" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1584991800854" />
+    <state width="1323" height="228" key="GridCell.Tab.1.left" timestamp="1584991800854">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="228" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1584991800854" />
+    <state width="1323" height="228" key="GridCell.Tab.1.right" timestamp="1584991800854">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="228" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1584991800854" />
+    <state x="186" y="29" key="SettingsEditor" timestamp="1583346983810">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="186" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583346983810" />
+    <state x="424" y="27" key="refactoring.ChangeSignatureDialog" timestamp="1583923085485">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="424" y="27" key="refactoring.ChangeSignatureDialog/0.0.1366.768@0.0.1366.768" timestamp="1583923085485" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="bool(re.search(r'([a-zA-Z])(?!\1)(?i:\1)', polymer_string))" language="Python" />
+        <watch expression="re.search(r'([a-zA-Z])(?!\1)(?i:\1)', polymer_string)" language="Python" />
+        <watch expression="i" language="Python" />
+        <watch expression="val" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$iterators.coverage" NAME="iterators Coverage Results" MODIFIED="1584941137373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functional programming" />
+    <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$devskill2.coverage" NAME="devskill2 Coverage Results" MODIFIED="1584205202365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/challenges" />
+    <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$built_in_functions.coverage" NAME="built_in_functions Coverage Results" MODIFIED="1585080887956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functional programming" />
+    <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$devskill.coverage" NAME="devskill Coverage Results" MODIFIED="1584209548304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/challenges" />
+    <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$generatorexpressionandlistcomprehension.coverage" NAME="generatorexpressionandlistcomprehension Coverage Results" MODIFIED="1584940934686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functional programming" />
+    <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$generators.coverage" NAME="generators Coverage Results" MODIFIED="1584954175588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functional programming" />
+    <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$react.coverage" NAME="react Coverage Results" MODIFIED="1584215239353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/challenges" />
+  </component>
+</project>

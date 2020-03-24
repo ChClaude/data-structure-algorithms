@@ -1,0 +1,10 @@
+I am Claude, a software developer that specializes in Python && Django and .Net Core - C#.
+I am a third year in Application Development at the Cape Peninsula University of Technology.
+
+I live in 29 Wallace Street, Goodwood Cape Town.
+
+I am the best programmer you can find around here
+
+I love maths, physics and life science.
+
+...
