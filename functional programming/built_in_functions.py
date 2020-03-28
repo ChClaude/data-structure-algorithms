@@ -150,8 +150,8 @@ which the predicate returns false.
 """
 filterfalse_iter = itertools.filterfalse(is_even, itertools.count())
 
-for x in range(7):
-    print(next(filterfalse_iter))
+# for x in filterfalse_iter:
+#     print(next(x))
 
 """
 itertools.takewhile(predicate, iter) returns elements for as long as the predicate returns true. Once
@@ -164,7 +164,6 @@ def less_than_10(y):
 
 
 takewhile_iter = itertools.takewhile(less_than_10, itertools.count())  # => 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-
 
 """
 itertools.dropwhile(predicate, iter) discards elements while the predicate returns true, and then returns the rest of the iterable’s results.
@@ -179,3 +178,97 @@ which the corresponding element of selectors is true, stopping whenever either o
 """
 
 itertools.compress([1, 2, 3, 4, 5], [True, True, False, False, True])  # => 1, 2, 5
+
+# COMBINATORIC FUNCTIONS
+"""
+The itertools.combinations(iterable, r) returns an iterator giving all possible r-tuple combinations of
+the elements contained in iterable.
+"""
+itertools.combinations([1, 2, 3, 4, 5], 2)  # =>  (1, 2), (1, 3), (1, 4), (1, 5),
+# (2, 3), (2, 4), (2, 5), (3, 4), (3, 5), (4, 5)
+
+itertools.combinations([1, 2, 3, 4, 5], 3)  # => (1, 2, 3), (1, 2, 4), (1, 2, 5),
+# (1, 3, 4), (1, 3, 5), (1, 4, 5), (2, 3, 4),
+# (2, 3, 5), (2, 4, 5), (3, 4, 5)
+
+"""
+The elements within each tuple remain in the same order as iterable returned them. For example, the number 1 is always before 2, 3, 4, or 5 in the examples above. A similar function, itertools.permutations(iterable,
+r=None), removes this constraint on the order, returning all possible arrangements of length r:
+"""
+
+itertools.permutations([1, 2, 3, 4, 5], 2)  # (1, 2), (1, 3), (1, 4), (1, 5),
+# (2, 1), (2, 3), (2, 4), (2, 5), (3, 1), (3, 2),
+# (3, 4), (3, 5), (4, 1), (4, 2), (4, 3), (4, 5),
+# (5, 1), (5, 2), (5, 3), (5, 4)
+
+itertools.permutations([1, 2, 3, 4, 5])  # => (1, 2, 3, 4, 5), (1, 2, 3, 5, 4), (1, 2, 4, 3, 5),
+# ...
+# (5, 4, 3, 2, 1)
+
+"""
+If you don’t supply a value for r the length of the iterable is used, meaning that all the elements are permuted.
+Note that these functions produce all of the possible combinations by position and don’t require that the contents of iterable
+are unique:
+"""
+
+itertools.permutations('aba', 3)  # => ('a', 'b', 'a'), ('a', 'a', 'b'), ('b', 'a', 'a'),
+# ('b', 'a', 'a'), ('a', 'a', 'b'), ('a', 'b', 'a')
+
+"""
+The itertools.combinations_with_replacement(iterable, r) function relaxes a different constraint: elements can be repeated within a single tuple. Conceptually an element is selected for the first position of
+each tuple and then is replaced before the second element is selected.
+"""
+combinator = itertools.combinations_with_replacement([1, 2, 3, 4, 5], 2)  # (1, 1), (1, 2), (1, 3), (1, 4), (1, 5),
+# (2, 2), (2, 3), (2, 4), (2, 5),
+# (3, 3), (3, 4), (3, 5),
+# (4, 4), (4, 5),
+# (5, 5)
+
+# for x in combinator:
+#     print(x)
+
+
+# GROUPING ELEMENTS
+"""
+The last function I’ll discuss, itertools.groupby(iter, key_func=None), is the most complicated.
+key_func(elem) is a function that can compute a key value for each element returned by the iterable. If you don’t
+supply a key function, the key is simply each element itself.
+groupby() collects all the consecutive elements from the underlying iterable that have the same key value, and returns
+a stream of 2-tuples containing a key value and an iterator for the elements with that key.
+"""
+
+city_list = [('Decatur', 'AL'), ('Huntsville', 'AL'), ('Selma', 'AL'),
+             ('Anchorage', 'AK'), ('Nome', 'AK'),
+             ('Flagstaff', 'AZ'), ('Phoenix', 'AZ'), ('Tucson', 'AZ'),
+             ]
+
+
+def get_state(city_state):
+    return city_state[1]
+
+
+state_group = itertools.groupby(city_list, get_state)  # =>
+# ('AL', iterator-1),
+# ('AK', iterator-2),
+# ('AZ', iterator-3),
+"""
+where
+iterator-1 =>
+('Decatur', 'AL'), ('Huntsville', 'AL'), ('Selma', 'AL')
+iterator-2 =>
+('Anchorage', 'AK'), ('Nome', 'AK')
+iterator-3 =>
+('Flagstaff', 'AZ'), ('Phoenix', 'AZ'), ('Tucson', 'AZ')
+"""
+
+for state in state_group:
+    print(state[0])
+    for x in state[1]:
+        print(x[0], x)
+    print()
+
+"""
+groupby() assumes that the underlying iterable’s contents will already be sorted based on the key. Note that the
+returned iterators also use the underlying iterable, so you have to consume the results of iterator-1 before requesting
+iterator-2 and its corresponding key.
+"""

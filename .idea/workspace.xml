@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa62d99b-97d9-47ce-b796-a368722a4254" name="Default Changelist" comment="" />
+    <list default="true" id="aa62d99b-97d9-47ce-b796-a368722a4254" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/challenges/palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functional programming/functools_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Christ.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Christ.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional programming/built_in_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional programming/built_in_functions.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1RTyJ3EiVrSi4yfmGWQT907y6Rw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,7 +47,7 @@
       <recent name="C:\Users\Christ\PycharmProjects\Data Structures &amp; Algorithms - Python\challenges" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.built_in_functions">
+  <component name="RunManager" selected="Python.palindrome">
     <configuration name="built_in_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data Structures &amp; Algorithms - Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,7 +70,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generatorexpressionandlistcomprehension" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="functools_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data Structures &amp; Algorithms - Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,7 +83,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functional programming/generatorexpressionandlistcomprehension.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functional programming/functools_functions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="react" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data Structures &amp; Algorithms - Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,7 +149,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenges/react.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenges/palindrome.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.palindrome" />
+        <item itemvalue="Python.functools_functions" />
         <item itemvalue="Python.built_in_functions" />
         <item itemvalue="Python.generators" />
         <item itemvalue="Python.iterators" />
-        <item itemvalue="Python.generatorexpressionandlistcomprehension" />
-        <item itemvalue="Python.react" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +184,10 @@
       <workItem from="1584196877194" duration="13609000" />
       <workItem from="1584508764269" duration="9395000" />
       <workItem from="1584885300727" duration="17496000" />
-      <workItem from="1585078307930" duration="3863000" />
+      <workItem from="1585078307930" duration="5579000" />
+      <workItem from="1585133988708" duration="599000" />
+      <workItem from="1585327423655" duration="6403000" />
+      <workItem from="1585379401793" duration="4880000" />
     </task>
     <servers />
   </component>
@@ -190,22 +203,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584201021987" />
-    <state width="1323" height="269" key="GridCell.Tab.0.bottom" timestamp="1585080887977">
+    <state width="1323" height="264" key="GridCell.Tab.0.bottom" timestamp="1585387769323">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="269" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585080887977" />
-    <state width="1323" height="269" key="GridCell.Tab.0.center" timestamp="1585080887977">
+    <state width="1323" height="264" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585387769323" />
+    <state width="1323" height="264" key="GridCell.Tab.0.center" timestamp="1585387769323">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="269" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1585080887977" />
-    <state width="1323" height="269" key="GridCell.Tab.0.left" timestamp="1585080887977">
+    <state width="1323" height="264" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1585387769323" />
+    <state width="1323" height="264" key="GridCell.Tab.0.left" timestamp="1585387769323">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="269" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1585080887977" />
-    <state width="1323" height="269" key="GridCell.Tab.0.right" timestamp="1585080887977">
+    <state width="1323" height="264" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1585387769323" />
+    <state width="1323" height="264" key="GridCell.Tab.0.right" timestamp="1585387769323">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="269" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1585080887977" />
+    <state width="1323" height="264" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1585387769323" />
     <state width="1323" height="228" key="GridCell.Tab.1.bottom" timestamp="1584991800854">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -244,10 +257,12 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$iterators.coverage" NAME="iterators Coverage Results" MODIFIED="1584941137373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functional programming" />
     <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$devskill2.coverage" NAME="devskill2 Coverage Results" MODIFIED="1584205202365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/challenges" />
-    <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$built_in_functions.coverage" NAME="built_in_functions Coverage Results" MODIFIED="1585080887956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functional programming" />
+    <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$built_in_functions.coverage" NAME="built_in_functions Coverage Results" MODIFIED="1585330204945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functional programming" />
+    <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$functools_functions.coverage" NAME="functools_functions Coverage Results" MODIFIED="1585386389637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functional programming" />
     <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$devskill.coverage" NAME="devskill Coverage Results" MODIFIED="1584209548304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/challenges" />
     <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$generatorexpressionandlistcomprehension.coverage" NAME="generatorexpressionandlistcomprehension Coverage Results" MODIFIED="1584940934686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functional programming" />
     <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$generators.coverage" NAME="generators Coverage Results" MODIFIED="1584954175588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functional programming" />
     <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$react.coverage" NAME="react Coverage Results" MODIFIED="1584215239353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/challenges" />
+    <SUITE FILE_PATH="coverage/Data_Structures___Algorithms___Python$palindrome.coverage" NAME="palindrome Coverage Results" MODIFIED="1585387769299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/challenges" />
   </component>
 </project>
