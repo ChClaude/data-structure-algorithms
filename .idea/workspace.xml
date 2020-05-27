@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa62d99b-97d9-47ce-b796-a368722a4254" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1- Python Overview/python_conveniences.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/codility_challenge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/hackerrank/printfunction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/leetcode/bob_alicce_candies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/leetcode/challenge_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/leetcode/decrypt_message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/leetcode/duplicate_zeros.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/leetcode/happy_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/leetcode/isomorphic_strings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/leetcode/max_subarray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/leetcode/pascals_triangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/leetcode/reverse_sequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exportToHTML/bob_alicce_candies.py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Christ.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Christ.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenges/devskill.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/devskill.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +204,7 @@
       <workItem from="1589990001577" duration="8399000" />
       <workItem from="1590075451401" duration="6456000" />
       <workItem from="1590164815876" duration="6907000" />
-      <workItem from="1590596664511" duration="6025000" />
+      <workItem from="1590596664511" duration="6957000" />
     </task>
     <servers />
   </component>
@@ -235,22 +220,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584201021987" />
-    <state width="1323" height="282" key="GridCell.Tab.0.bottom" timestamp="1590604966869">
+    <state width="1323" height="282" key="GridCell.Tab.0.bottom" timestamp="1590605592405">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="282" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590604966869" />
-    <state width="1323" height="282" key="GridCell.Tab.0.center" timestamp="1590604966868">
+    <state width="1323" height="282" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590605592405" />
+    <state width="1323" height="282" key="GridCell.Tab.0.center" timestamp="1590605592404">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="282" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590604966868" />
-    <state width="1323" height="282" key="GridCell.Tab.0.left" timestamp="1590604966867">
+    <state width="1323" height="282" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590605592404" />
+    <state width="1323" height="282" key="GridCell.Tab.0.left" timestamp="1590605592404">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="282" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590604966867" />
-    <state width="1323" height="282" key="GridCell.Tab.0.right" timestamp="1590604966868">
+    <state width="1323" height="282" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590605592404" />
+    <state width="1323" height="282" key="GridCell.Tab.0.right" timestamp="1590605592405">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="282" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590604966868" />
+    <state width="1323" height="282" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590605592405" />
     <state width="1323" height="363" key="GridCell.Tab.1.bottom" timestamp="1590597821534">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
