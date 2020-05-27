@@ -53,7 +53,6 @@ def react(polymer_string):
             # print(x.group())
     return polymer_string
 
-
 # print(friday13(2015))
 # print(react('vRaKkNgeUYTt'))  # vRaNgeUY
 # print(react('WySrKeqEzAYyYUQqYuIicrRClZGrjfdEvSxYcCQxcCTqpUu'))  # WySrKeqEzAYUYulZGrjfdEvSxYQxTqp

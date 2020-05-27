@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>bob_alicce_candies.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #9b859d; font-style: italic;}
+.s1 { color: #d3dae3;}
+.s2 { color: #747c84; font-style: italic;}
+.s3 { color: #a7a7a7;}
+.s4 { color: #cda869;}
+</style>
+</head>
+<body bgcolor="#262b33">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+bob_alicce_candies.py</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">functools</span>
+<span class="s0">import </span><span class="s1">itertools</span>
+<span class="s0">import </span><span class="s1">operator</span>
+
+<span class="s2"># Bob and ALice candies challenge</span>
+
+
+<span class="s0">def </span><span class="s1">share_candy</span><span class="s3">(</span><span class="s1">b_candies</span><span class="s3">, </span><span class="s1">a_candies</span><span class="s3">):</span>
+    <span class="s2">&quot;&quot;&quot; 
+    Bob and Alice candies share method 
+    :param b_candies: list of integer numbers representing bob's candies 
+    :param a_candies: list of integer numbers representing alice's candies 
+    :return: tuple representing the values that must be returned from the two arrays so as to have an 
+                equal sum of element in both arrays 
+    &quot;&quot;&quot;</span>
+    <span class="s0">for </span><span class="s1">x</span><span class="s3">, </span><span class="s1">i </span><span class="s0">in </span><span class="s1">b_candies</span><span class="s3">:</span>
+        <span class="s0">for </span><span class="s1">y</span><span class="s3">, </span><span class="s1">f </span><span class="s0">in </span><span class="s1">a_candies</span><span class="s3">:</span>
+            <span class="s1">b_candies_new </span><span class="s3">= </span><span class="s1">filter</span><span class="s3">(</span><span class="s0">lambda </span><span class="s1">el</span><span class="s3">: </span><span class="s1">el </span><span class="s3">!= </span><span class="s1">x</span><span class="s3">, </span><span class="s1">b_candies</span><span class="s3">)</span>
+            <span class="s1">a_candies_new </span><span class="s3">= </span><span class="s1">filter</span><span class="s3">(</span><span class="s0">lambda </span><span class="s1">el</span><span class="s3">: </span><span class="s1">el </span><span class="s3">!= </span><span class="s1">y</span><span class="s3">, </span><span class="s1">a_candies</span><span class="s3">)</span>
+
+            <span class="s0">if </span><span class="s1">sum</span><span class="s3">(</span><span class="s1">b_candies</span><span class="s3">) == </span><span class="s1">sum</span><span class="s3">(</span><span class="s1">a_candies</span><span class="s3">): </span><span class="s0">return </span><span class="s3">(</span><span class="s1">x</span><span class="s3">, </span><span class="s1">y</span><span class="s3">)</span>
+
+
+<span class="s1">share_candy</span><span class="s3">([</span><span class="s4">1</span><span class="s3">, </span><span class="s4">1</span><span class="s3">], [</span><span class="s4">2</span><span class="s3">, </span><span class="s4">2</span><span class="s3">])</span>
+
+</pre>
+</body>
+</html>
